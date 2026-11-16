@@ -9,24 +9,24 @@
     <?php include 'menu.php'; ?>
     
     <section>
-        <h2>Receita Padrão da Semana</h2>
+        <h2>Receita PadrÃ£o da Semana</h2>
         
         <?php
-            $semanaAtual = "Semana 42 - Base Suína";
+            $semanaAtual = "Semana 42 - Base SuÃ­na";
             $pesoTotalLote = 50.0; // Em kg
-            $percentualProteina = 0.30; // 30% da receita é proteína
+            $percentualProteina = 0.30; // 30% da receita Ã© proteÃ­na
             
             $qtdProteinaNecessaria = $pesoTotalLote * $percentualProteina;
             
-            $insumosDaSemana = ["Filé Mignon Suíno", "Batata Doce", "Cenoura", "Chuchu", "Azeite Extra Virgem"];
+            $insumosDaSemana = ["FilÃ© Mignon SuÃ­no", "Batata Doce", "Cenoura", "Chuchu", "Azeite Extra Virgem"];
         ?>
 
         <div class="passos-grid" style="margin-bottom: 40px;">
             <div class="passo-card">
                 <h3>Planejamento do Lote</h3>
                 <p>Lote: <strong><?php echo $semanaAtual; ?></strong></p>
-                <p>Produção Total: <?php echo $pesoTotalLote; ?> kg</p>
-                <p>Proteína Necessária: <strong style="color: var(--primary-color);"><?php echo $qtdProteinaNecessaria; ?> kg</strong></p>
+                <p>ProduÃ§Ã£o Total: <?php echo $pesoTotalLote; ?> kg</p>
+                <p>ProteÃ­na NecessÃ¡ria: <strong style="color: var(--primary-color);"><?php echo $qtdProteinaNecessaria; ?> kg</strong></p>
             </div>
         </div>
 

@@ -2,14 +2,14 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Aula 04 - Orientação a Objetos</title>
+    <title>Aula 04 - OrientaÃ§Ã£o a Objetos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <?php include 'menu.php'; ?>
     
     <section>
-        <h2>Cadastro e Validação (Orientação a Objetos)</h2>
+        <h2>Cadastro e ValidaÃ§Ã£o (OrientaÃ§Ã£o a Objetos)</h2>
         
         <?php
             class Profissional {
@@ -46,8 +46,8 @@
             <div class="passo-card">
                 <h3>Dados do Pet</h3>
                 <p><strong>Nome:</strong> <?php echo $clientePet->nome; ?></p>
-                <p><strong>Raça:</strong> <?php echo $clientePet->raca; ?></p>
-                <p><strong>Saúde:</strong> <?php echo $clientePet->condicaoSaude; ?></p>
+                <p><strong>RaÃ§a:</strong> <?php echo $clientePet->raca; ?></p>
+                <p><strong>SaÃºde:</strong> <?php echo $clientePet->condicaoSaude; ?></p>
             </div>
             
             <div class="passo-card" style="border: 2px solid var(--primary-color);">

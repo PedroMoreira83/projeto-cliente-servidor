@@ -1,0 +1,9 @@
+# Arquivos do Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Configurações do VS Code
+.vscode/
+
+# Se você não quiser subir as senhas do banco (opcional no momento)
+# api/config/conexao.php
